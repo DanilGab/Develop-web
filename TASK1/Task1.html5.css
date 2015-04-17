@@ -1,0 +1,50 @@
+﻿header {
+    color: black;
+}
+
+ul.nav li  {
+    color: black;
+    display: inline; 
+    padding: 5px 10px 5px 10px
+}
+ul.nav li a:hover {
+padding: 5px 10px 5px 10px;
+font-weight: 600;
+background: red;
+color: black;
+}
+ul.nav a.selected {
+background: green;
+}
+
+div.foot {
+background-color: black;
+margin: 20px;
+padding: 20px
+}
+div.homeblock 
+{
+    background: red;
+    margin: 1px;
+    padding: 2px;
+}
+
+article {
+    color: black;
+    border: 4px dotted red; 
+    background: turquoise ; 
+    padding: 10px; 
+}
+
+aside {
+    color: dimgray;
+    text-align: right;
+}
+sidebar{
+    width: 300px;
+    display: block;
+    float: right;
+    margin: 0 0 0 -100%;
+    background: red;    
+}
+
