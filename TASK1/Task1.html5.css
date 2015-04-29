@@ -2,49 +2,67 @@
     color: black;
 }
 
-ul.nav li  {
-    color: black;
-    display: inline; 
-    padding: 5px 10px 5px 10px
-}
-ul.nav li a:hover {
-padding: 5px 10px 5px 10px;
-font-weight: 600;
-background: red;
-color: black;
-}
-ul.nav a.selected {
-background: green;
+ul.nav li {
+    color: white;
+    display: inline;
+    padding: 6px 10px 6px 10px;
 }
 
-div.foot {
-background-color: black;
-margin: 20px;
-padding: 20px
-}
-div.homeblock 
-{
-    background: red;
-    margin: 1px;
-    padding: 2px;
+ul.nav li a:hover, ul.nav a:active {
+padding: 6px 10px 6px 10px;
+font-weight: bold;
+background: lightgrey;
+color: black;
 }
 
 article {
-    color: black;
-    border: 4px dotted red; 
-    background: turquoise ; 
-    padding: 10px; 
+    
+     display: block;
+     border : solid 1px black;
+     background : f0f000;
+    padding : 10px;
 }
 
-aside {
+content{
+    display: block;
+     border : solid 1px black;
+     background : f0f000;
+    padding : 10px;
+}
+text{
+     border : solid 1px black;
+    padding: 10px;
+    width: 200px;
+    height: 34px;
+    float: right;
+    background: white;
+}
+
+textheader{
+     display : block;
+     background: lightgrey;
+     padding: 10px;
+     color : black;
+}
+
+aside{
+     background: white;
     color: dimgray;
-    text-align: right;
+    text-align: left;
+    float: right;
+}
+
+div.foot{
+    background-color: white;
+    margin: 100px;
+    padding: 20px
 }
 sidebar{
-    width: 300px;
-    display: block;
-    float: right;
-    margin: 0 0 0 -100%;
-    background: red;    
+    background: PeachPuff;
+    padding: 10px;
+    width: auto;
+    height: 300px;
+    float: left;  
+    border : solid 1px black; 
 }
 
