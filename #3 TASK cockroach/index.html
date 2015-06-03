@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <script src="game.js"></script>
+        <title>ТАРАКАНЫ</title>
+        <img id="tarakan" src="coc.png" style='display:none;' />
+        <img id="background" src="back.jpg" style='display:none;' />   
+    </head>
+    <body>
+        <section id="CanvasSection">
+            <canvas id="canvas" width="1124" height="600" style="border: 5px solid black"></canvas>
+        </section>
+		<!-- <div class="form">
+			<div class="button"><input type="button" value="Рискнуть"/></div>
+			<div class="players">
+					<h2>Игроки</h2> <br>
+					<input type="radio" name="player" value="player1"> Игрок 1 <br>
+					<input type="radio" name="player" value="player2"> Игрок 2 <br>
+					<input type="radio" name="player" value="player3"> Игрок 3 <br>
+			</div>
+			<div class="bugs">
+					<h2>Таракан</h2> <br>
+					<input type="radio" name="tarakan" value="bug1"> Таракан 1 <br>
+                    <input type="radio" name="tarakan" value="bug2"> Таракан 2 <br>
+                    <input type="radio" name="tarakan" value="bug3"> Таракан 3 <br>
+                    <input type="radio" name="tarakan" value="bug4"> Таракан 4 <br>
+			</div>
+			<div class="pay">
+				<h2>Ставки<h2> <br>
+				<input type="text" size="15">
+			</div>
+            
+            <div class=goButton><input style="width: 200px; height: 250; font-size: 50;" id="goButton" type="button" value="Старт" onclick="run();"></div>
+		</div> -->
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td style="width: 200px; vertical-align: top; text-align: center;">
+                                        <h2>Игроки</h2>
+                                        <input type="radio" name="player" value="player1" id="p1"> Игрок 1 <br>
+                                        <input type="radio" name="player" value="player2" id="p2"> Игрок 2 <br>
+                                        <input type="radio" name="player" value="player3" id="p3"> Игрок 3 <br>
+                                    </td>
+
+                                    <td style="width: 250px; vertical-align: top; text-align: center;">
+                                        <h2>Ставки</h2>
+                                        <b>Номер дорожки</b>
+                                        <br>
+                                        <input type="radio" name="nomer" id="1nomer" value="1"> 1 <br>
+                                        <input type="radio" name="nomer" id="2nomer" value="2"> 2 <br>
+                                        <input type="radio" name="nomer" id="3nomer" value="3"> 3 <br>
+                                        <input type="radio" name="nomer" id="4nomer" value="4"> 4 <br>
+                                        </p>
+
+                                        <b>Ставка  </b><input style="width: 130px;" type="text" id="cash" size="10"><b> $</b>
+                                        <br><br>
+                                        <input type="button" name="addcash" value="Ставь" onclick="AddCash();"/>
+                                    </td>
+
+                                    <td style="width: 250px; vertical-align: top; text-align: center;">
+                                        <h2>История</h2>
+                                        <select style="width: 220px;" id="playercash" name="history" size="12"></select>
+                                    </td>
+
+                                    <td style="width: 250px; vertical-align: top; text-align: center;">
+                                        <h2>Результаты</h2>
+                                        <select style="width: 220px;" id="PlayerWin" name="result" size="12"></select>
+                                    </td>
+
+                                    <td style="width: 2300px; vertical-align: top; text-align: center;">
+                                        <input style="width: 200px; hight: 100; font-size: 50;" type="button" value="Старт" id="goButton">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
