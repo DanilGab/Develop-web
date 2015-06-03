@@ -1,0 +1,103 @@
+header	{
+	margin: 100px auto 10px;
+	text-align: left;
+    color: red;
+}
+
+body	{
+	background-color: black;
+}
+
+article	{
+	margin-left: 10px;
+    color: black;
+	margin 10px;
+}
+
+
+
+section	{
+	width: 80%;
+	margin: 10px 20% 10px 10px;
+	background: #ffffff;
+	border-radius: 6px;
+	border: 1px solid #e5e5e5;
+}
+
+h3{
+	color: white;
+}
+h2 {
+	color: black;
+	text-align: center;
+	width: 80%;
+	margin: 10px auto;
+}
+
+sidebar	{
+	position: fixed;
+	top: 148px;
+	float: right;
+	right: 0;
+	margin: 7px 10px;
+	background: white;
+	width: 17%;
+	text-align: center;
+	border-radius: 8px;
+	border: 3px solid black;
+}
+aside{
+
+   	margin-right: 250px;
+    color: white;
+    float: right;
+}
+footer 	{
+	margin-left: 10px;
+	font-size: 12px;
+	color: white;
+	margin-top: 50px;
+}
+
+#map	{
+	position: relative;
+	width: auto; 
+	height: 400px
+}
+
+nav {
+	top: 0;
+	position: fixed;
+	right: 0;
+	left: 0;
+}
+
+ol, ul	{
+	list-style: none;
+}
+
+ul.navbar {
+	height: 35px;
+	background-color: red;
+}
+ul.navbar li {
+	line-height: 35px;
+	height: 35px;
+	float:left;
+	width:auto;
+}
+ul.navbar li a {
+	display: block;
+	color: white;
+	text-decoration:none;
+	padding: 0 10px;
+	border-right: 3px solid grey;
+}
+
+ul.navbar li a:hover {
+	background-color: grey;
+}
+
+ul.navbar li.current a {
+	background-color:black; 
+}
