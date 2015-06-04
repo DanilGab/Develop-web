@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+    <head>
+		<title>"Тараканы"</title>
+		<meta charset="utf-8" />
+        <title></title>
+        <script src="js/game.js"></script>
+		<link id="style" rel="stylesheet" type="text/css" href="css/main.css" />
+        <img id="tarakan" src="image/coc.png" style='display:none;' />
+        <img id="background" src="image/back.jpg" style='display:none;' />
+        <img id="first" src="image/1.png" style='display:none;' />
+        <img id="second" src="image/2.png" style='display:none;' />
+        <img id="third" src="image/3.png" style='display:none;' />
+        <img id="fourth" src="image/4.png" style='display:none;' />
+    </head>
+    <body>
+        <section id="CanvasSection">
+            <canvas id="canvas" width="1124" height="600"></canvas>
+        </section>
+		<div class="form">
+			<div id="buttonIn"><input id="inputButton" type="button" value="Поставить"/></div>
+            <div id="buttonDel"><input id="deleteButton" type="button" value="Удалить" /></div>
+			<div id="players">
+					<h2>Игроки</h2>
+					<input type="radio" name="player" id="player1" value="player1"> Игрок 1 <Br>
+					<input type="radio" name="player" id="player2" value="player2"> Игрок 2 <Br>
+					<input type="radio" name="player" id="player3" value="player3"> Игрок 3 <Br>
+			</div>
+			<div id="bugs">
+					<h2>Тараканы</h2>
+					<input type="radio" name="tarakan" id="bug1" value="bug1"> Таракан 1 <Br>
+                    <input type="radio" name="tarakan" id="bug2" value="bug2"> Таракан 2 <Br>
+                    <input type="radio" name="tarakan" id="bug3" value="bug3"> Таракан 3 <Br>
+                    <input type="radio" name="tarakan" id="bug4" value="bug4"> Таракан 4 <Br>
+			</div>
+			<div id="pay">
+			<br>
+				 Ставка<br>
+				 <input type="text" id="cost" size="15"> $
+				
+			</div>
+			<div id=selectBox>
+			<br>
+                <select id="listRate" name="list" size="8"></select>
+                <select id="listResult" name="list" size="8"></select>
+            </div>
+            
+			
+            <div class=goButton><img id="" src="image/go_button_pressed.png" /></div>
+            <div class=goButton><img id="goButton" src="image/go_button.png"/></div>
+            
+		</div>
+    </body>
+</html>
